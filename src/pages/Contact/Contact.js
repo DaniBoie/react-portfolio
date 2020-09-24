@@ -23,12 +23,12 @@ const Contact = () => {
             <h1>Contact Me About (<span className="portfolioChange">{wordState.word}</span>)</h1>
             <FormGroup>
               <Label for="exampleEmail">Your Email:</Label>
-              <Input type="email" name="email" id="exampleEmail" placeholder="Example: dennis.rodman@gmail.com" />
+              <Input type="email" name="email" id="exampleEmail" />
             </FormGroup>
 
             <FormGroup>
               <Label for="subject">Subject:</Label>
-              <Input type="text" name="subject" id="subject" placeholder="Example: Portfolio Critiques" />
+              <Input type="text" name="subject" id="subject" />
             </FormGroup>
 
             <FormGroup>
