@@ -3,11 +3,9 @@ import Header from './components/Header'
 // import './App.css'
 
 const App = () => {
-
-  return(
+  return (
     <>
-    <Header />
-
+      <Header />
     </>
   )
 
